@@ -1,0 +1,49 @@
+body{
+    box-sizing: border-box;
+    background-color: #0F0F0F;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif !important ;
+}
+.container{
+    padding-top: 10px;
+}
+.container h1{
+    color: yellow;
+    text-decoration: solid;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.contactsection {
+    background-color: white;
+    padding: 40px;
+    margin-left: 400px;
+    width: 45%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 10PX;
+    margin-bottom: 100px;
+  }
+
+
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #000000;
+    border-radius: 50px;
+  }
+.email{
+    padding-left: 100px;
+  }
+  textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #000000;
+    border-radius: 25px;
+  }
+  footer{
+    padding-top: 10px;
+  }
+  h3{
+    font-size: 18px !important ;
+  }
