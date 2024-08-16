@@ -1,0 +1,240 @@
+body{
+    box-sizing: border-box;
+    background-color: #0F0F0F;
+    margin: 0;
+}
+.link{
+    text-decoration: none;
+    color: #0F0F0F;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+header{
+    background-color: white;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #0F0F0F;
+    list-style: none;
+    gap: 20px;
+    font-weight: 800;
+}
+.download{
+    background-color: #C1121F;
+    color: white;
+    font-weight: 800;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #0F0F0F;
+}
+#premiersection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#image img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 50px 100px;
+}
+#image img:hover {
+    transform: scale(1.4);
+}
+#informations{
+    padding: 100px 100px;
+}
+#paragrapheyellow{
+    color: yellow;
+    font-size: 30px;
+}
+#nom{
+    color: red;
+    padding-right: 350px;
+    font-size: 55px;
+}
+p, h1{
+    color: white;
+    font-size: 30px;
+}
+#prenom{
+    color: white;
+    font-size: 55px;
+}
+.social-icons a {
+    font-size: 32px; 
+    margin: 0 10px;
+    color: white;
+    text-decoration: none; 
+}
+.social-icons a:hover {
+    color: #007bff; /* Change la couleur au survol */
+}
+#workExperience h2{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+.Experiences{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#firstExperience{
+    padding-right: 370px;
+}
+#secondExperience{
+    padding-left: 550px;
+}
+.bottonsExperience{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    border-color: antiquewhite;
+    border-style: dashed;
+}
+#firstBottom{
+    background-color: #C1121F;
+    align-items: center;
+}
+#secondBottom{
+    background-color: green;
+    align-items: center;
+}
+.Experiencedescription{
+    padding-right: 150px;
+}
+.Experiencedescription h2{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.Experiencedescription p{
+    font-size: 20px;
+    text-decoration: #333;
+    margin-top: 10px;
+}
+#secondExperienceDescription{
+    padding-left: 200px;
+}
+#aboutMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 450px;
+}
+#imageAboutMe img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+#aboutMeDescription{
+    padding-left: 100px;
+    padding-right: 500px;
+}
+#paragrapheAboutMe{
+    font-size: 20px;
+}
+#aboutMeDescription p{
+    font-size: 15px;
+}
+#aboutMeDescription h2{
+    color: antiquewhite;
+    font-size: 22px;
+}
+input[type="range"]{
+    width: 300px;
+    height: 15px;
+    color: yellow;
+    cursor: not-allowed; /* Indique que l'élément est désactivé */
+    border-radius: 50%;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+#projects h2{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+#projects .projet img{
+    padding: 0px 500px 50px ;
+    width: 650px;
+    height: 350px;
+}
+#projects a img{
+    width: 650px;
+    height: 350px;
+    padding-left: 500px;
+}
+#projects #more{
+    padding-left: 1000px;
+    text-decoration: none;
+    color: white;
+}
+#projects #more p{
+    padding-left: 1000px;
+    text-decoration: none;
+    color: white;
+}
+#projects{
+    padding-bottom: 70px;
+}
+footer{
+    background-color: #333;
+}
+footer div h3{
+    padding-left: 700px;
+    padding-top: 25px;
+    font-size: 20px;
+    color: white;
+    text-decoration: solid;
+}
+#footerMenu{
+    display: flex;
+    justify-content:baseline ;
+    padding-left: 600px;
+}
+#footerMenu a{
+    text-decoration: none;
+}
+#footerMenu p{
+    font-size: 17px;
+    padding-right: 23px;
+}
+footer div .social-icons{
+    padding-left: 620px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+footer div .social-icons a{
+    font-size: 25px;
+}
+#rights{
+    padding-top: 5px;
+    border: #333 solid;
+    background-color: #0F0F0F;
+    text-align: center;
+}
+#rights p{
+    font-size: 12px;
+}
+#rights p span{
+    color: yellow;
+}
+.recentlypage{
+    font-size: larger;
+  }
